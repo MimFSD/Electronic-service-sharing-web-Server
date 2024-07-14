@@ -14,6 +14,8 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 
+
+
 app.use(
     cors({
         origin: ["http://localhost:5173", "https://maab-fw-assignment-11.vercel.app", "https://maab-fw-a11.vercel.app"],
